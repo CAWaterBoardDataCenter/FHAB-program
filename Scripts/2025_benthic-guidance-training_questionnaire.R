@@ -9,7 +9,7 @@ library(readr)
 library(wordcloud2) 
 
 ########## Load Data ##########
-questionnaire <- read_csv("Data"/"Training-for-CCHAB-Benthic-Toxic-Algal-Mats-Guidance-Responses.csv")
+questionnaire <- read_csv("Data/Training-for-CCHAB-Benthic-Toxic-Algal-Mats-Guidance-Responses.csv")
 
 ########## Tidy Data ##########
 

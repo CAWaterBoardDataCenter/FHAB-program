@@ -7,8 +7,8 @@ library(tidyverse)
 library(dplyr)
 
 # Load data ----
-participants = read.csv("2025-05_benthic_guidance_training_participant_data.csv")
-d = read.csv("2025-05_benthic_guidance_training_registrant_data.csv") %>%
+participants = read.csv("Data/2025-05_benthic_guidance_training_participant_data.csv")
+d = read.csv("Data/2025-05_benthic_guidance_training_registrant_data.csv") %>%
   left_join(participants) %>%
   mutate(attended = ifelse(is.na(guest)==TRUE, "No", "Yes"))
 
