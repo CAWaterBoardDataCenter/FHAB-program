@@ -10,7 +10,13 @@ library(maps)
 library(cowplot)
 
 # Load data ----
-participants = read.csv("2025-05_benthic_guidance_training_participant_data_7.18.25.csv")
+registrants = read.csv("data/2025-05_benthic_guidance_training_registrant_data_7.18.25.csv")
+participants = read.csv("data/2025-05_benthic_guidance_training_participant_data_7.18.25.csv")
+
+participants_w_orgs = participants %>%
+  left_join(registrants, by = "first_last_name")
+
+
 
 ### Making a map showing participants by county & organization ###
 map_info = read.csv("data/org_loc.csv")
@@ -55,11 +61,6 @@ pop_map <- ca_map +
 pop_map
 
 # Outdated code for plotting bar charts ----
-# cleaned up registrant list manually in excel
-d = read.csv("2025-05_benthic_guidance_training_registrant_data.csv") %>%
-  left_join(participants) %>%
-  mutate(attended = ifelse(is.na(guest) == TRUE, "No", "Yes"))
-
 # Add column with counts for each org
 d_counts = d %>%
   group_by(org, org_category, attended) %>%
