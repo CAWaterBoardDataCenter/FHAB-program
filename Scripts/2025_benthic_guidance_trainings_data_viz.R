@@ -43,14 +43,6 @@ d_counts %>%
   coord_flip() +
   theme_classic()
 
-d_counts %>%
-  filter(attended == "Yes") %>%
-  filter(org_category == "Tribe") %>%
-  ggplot(aes(org, count)) +
-  geom_bar(stat = "identity") +
-  coord_flip() +
-  theme_classic()
-
 # Add column with counts for each category
 d_categories = d %>%
   group_by(org_category, attended) %>%
