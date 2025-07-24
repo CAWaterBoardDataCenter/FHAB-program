@@ -16,7 +16,12 @@ participants = read.csv("data/2025-05_benthic_guidance_training_participant_data
 participants_w_orgs = participants %>%
   left_join(registrants, by = "first_last_name")
 
-write.csv(participants_w_orgs, "data/2025-05_benthic_guidance_training_participants_w_orgs.csv")
+# write.csv(participants_w_orgs, "data/2025-05_benthic_guidance_training_participants_w_orgs.csv")
+
+# Create dataframe with orgs & county
+#orgs = as.data.frame(unique(participants_w_orgs$org))
+#write.csv(orgs, "data/org_loc.csv")
+#populate manually
 
 ### Making a map showing participants by county & organization ###
 map_info = read.csv("data/org_loc.csv")
