@@ -1,60 +1,60 @@
-org,street,town,county
-CA Department of Water Resources,,,
-Southern California Coastal Water Research Project,,,
-TRC,,,
-County of Los Angeles,,,
-Wiyot Tribe,,,
-MBC Aquatic Sciences,,,
-CA Department of Fish and Wildlife,,,
-County of Humboldt,,,
-County of Clark Public Health (Vancouver WA),,,
-Benton-Franklin Health District,,,
-CA State Parks and Recreation,,,
-County of San Diego,,,
-CA State Water Board,,,
-Oregon Health Authority,,,
-County of Napa,,,
-County of Sonoma,,,
-CA Region 8 Water Board (Santa Ana),,,
-Orange County Health Care Agency,,,
-CA Region 5 Water Board (Central Valley),,,
-County of Sacramento,,,
-Yuba Water Agency,,,
-County of Los Angeles Department of Parks and Recreation,,,
-Yurok Tribe,,,
-City of Davis,,,
-Surfrider Foundation,,,
-Middletown Rancheria ,,,
-CA Region 4 Water Board (Los Angeles),,,
-CA Region 6 Water Board (Lahontan),,,
-Midpeninsula Regional Open Space District,,,
-UCANR,,,
-CA Region 2 Water Board (San Francisco Bay),,,
-County of Mendocino,,,
-City of San Diego,,,
-East Bay Regional Park District,,,
-County of Tulare,,,
-City of Santa Rosa,,,
-"Sanctuary Forest, Inc.",,,
-Parks and Recreation south Aquatics ,,,
-Blue Lake Rancheria,,,
-OEHHA,,,
-CA Region 1 Water Board (North Coast),,,
-CA Region 9 Water Board (San Diego),,,
-Washington State Department of Health,,,
-US Forest Service,,,
-League to Save Lake Tahoe,,,
-County of Imperial,,,
-Karuk Tribe,,,
-Grays Harbor County Environmental Health ,,,
-Vista Irrigation District,,,
-Washington State Department of Ecology,,,
-Oregon Department of Environmental Quality,,,
-Rotary Nature Center Friends,,,
-Department of Environmental Health and Quality,,,
-Stillwater Sciences ,,,
-UC Davis ,,,
-US Army Corps of Engineers,,,
-The San Diego River Park Foundation,,,
-Restore the Delta,,,
-ODEQ,,,
+org,address,street,town,county,region
+CA Department of Water Resources,,,,,
+Southern California Coastal Water Research Project,,,,,
+TRC,,,,,
+County of Los Angeles,,,,,
+Wiyot Tribe,,,,,
+MBC Aquatic Sciences,,,,,
+CA Department of Fish and Wildlife,,,,,
+County of Humboldt,,,,,
+County of Clark Public Health (Vancouver WA),,,,,
+Benton-Franklin Health District,,,,,
+CA State Parks and Recreation,,,,,
+County of San Diego,,,,,
+CA State Water Board,,,,,
+Oregon Health Authority,,,,,
+County of Napa,,,,,
+County of Sonoma,,,,,
+CA Region 8 Water Board (Santa Ana),,,,,
+Orange County Health Care Agency,,,,,
+CA Region 5 Water Board (Central Valley),,,,,
+County of Sacramento,,,,,
+Yuba Water Agency,,,,,
+County of Los Angeles Department of Parks and Recreation,,,,,
+Yurok Tribe,,,,,
+City of Davis,,,,,
+Surfrider Foundation,,,,,
+Middletown Rancheria ,,,,,
+CA Region 4 Water Board (Los Angeles),,,,,
+CA Region 6 Water Board (Lahontan),"2501 Lake Tahoe Blvd, So. Lake Tahoe, CA 96150",,,El Dorado,6
+Midpeninsula Regional Open Space District,"5050 El Camino Real, Los Altos, CA 94022-1404",,,Santa Clara,2
+UCANR,"2801 Second Street, Davis, CA 95618-7774",,,Yolo,5
+CA Region 2 Water Board (San Francisco Bay),"1515 Clay Street, Suite 1400 Oakland, CA 94612",,,Alameda,2
+County of Mendocino,"501 Low Gap Road, Ukiah, CA 95482",,,Mendocino,1
+City of San Diego,"202 C St. San Diego, CA 92101",,,San Diego,9
+East Bay Regional Park District,"2950 Peralta Oaks Ct, Oakland, CA 94605",,,Alameda,2
+County of Tulare,"2900 W Burrel Ave, Visalia, CA 93277",,,Tulare,5
+City of Santa Rosa,"100 Santa Rosa Ave, Santa Rosa, CA 95404",,,Sonoma,1
+"Sanctuary Forest, Inc.","315 Shelter Cove Rd, Whitethorn, CA 95589",,,Humboldt,1
+Parks and Recreation south Aquatics ,,,,,
+Blue Lake Rancheria,"Blue Lake Rancheria Tribal Government Office, 1 Aiyekwee Loop, Blue Lake, CA 95525",,,Humboldt,1
+OEHHA,"1001 I St, Sacramento, CA 95814",,,Sacramento,5
+CA Region 1 Water Board (North Coast), 5550 Skylane Blvd STE A Santa Rosa CA 95403-1072,,,Mendocino,1
+CA Region 9 Water Board (San Diego),"2375 Northside Drive, Suite 100. San Diego, CA 92108",,,San Diego,9
+Washington State Department of Health,Washington State,,,,
+US Forest Service,"Washington, D.C.",,,,
+League to Save Lake Tahoe,"2877 Lake Tahoe Blvd, South Lake Tahoe, CA 96150",,,El Dorado,6
+County of Imperial,"940 Main St. El Centro, CA 92243",,,Imperial,7
+Karuk Tribe,"64236 2nd Ave, Happy Camp, CA 96039",,,Siskiyou,1
+Grays Harbor County Environmental Health ,Washington State,,,,
+Vista Irrigation District,"1391 Engineer St, Vista, CA 92081",,,San Diego,9
+Washington State Department of Ecology,Washington State,,,,
+Oregon Department of Environmental Quality,Oregon State,,,,
+Rotary Nature Center Friends,"600 Bellevue Avenue, Oakland, CA 94610",,,Alameda,2
+Department of Environmental Health and Quality,,,,,
+Stillwater Sciences ,"279 Cousteau Pl, Davis, California, United States",,,Yolo,5
+UC Davis ,"1 Shields Avenue, Davis CA 95616",,,Yolo,5
+US Army Corps of Engineers,"Washington, D.C.",,,,
+The San Diego River Park Foundation,"4891 Pacific Hwy #110, San Diego, CA 92110",,,San Diego,9
+Restore the Delta,"2616 Pacific Ave #4296, Stockton, CA 95204",,,San Joaquin,5
+ODEQ,Oregon State,,,,
