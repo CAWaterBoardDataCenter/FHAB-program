@@ -23,27 +23,43 @@ participants_w_orgs = participants %>%
 #write.csv(orgs, "data/org_loc.csv")
 #populate manually
 
+# read in dataframe with organization location info
+org_loc = read.csv("data/org_loc.csv")
+
 ### Making a map showing participants by county & organization ###
-map_info = read.csv("data/org_loc.csv")
+# start by coloring counties in a gradient so that darker shades represent more participants for that county
+# make a df with number of participants by county
+n_cty = org_loc %>%
+  group_by(county) %>%
+  summarize(n = n()) %>%
+  mutate(county = tolower(county))
+  #rename counties so they match ca_counties df
 
 # load county data
 usa_counties = map_data("county") 
 # filter for CA counties
 ca_counties = usa_counties %>%
-  filter(region == "california")
-# load map data on US States
-usa_states = map_data('state')
+  filter(region == "california") %>%
+  # join n_cty dataframe
+  left_join(n_cty, join_by(subregion == county)) %>%
+  # replace NAs with 0s in n column
+  mutate(n = ifelse(is.na(n), 0, n))
 
-# toy data for coloring counties proof of concept
-cty_vals = data_frame(c("yolo", "solano", "sacramento"),
-                      c(6, 10, 22))
+# load map data on US States
+#usa_states = map_data('state')
+
+#library(RColorBrewer)
+
+teal_gradient = c("white", "#d1eeea","#a8dbd9", "#85c4c9", "#68abb8", "#4f90a6", "#3b738f", "#2a5674")
 
 # Create the map with counties
 ggplot(data = ca_counties, aes(x = long, y = lat, group = group)) +
-  geom_polygon(aes(fill = ), color = "black", linewidth = 0.2) + # County boundaries # fill = "white", 
+  geom_polygon(aes(fill = n), color = "black",  linewidth = 0.2) + # County boundaries # #
+  scale_fill_gradientn(colors = teal_gradient) +
   coord_fixed(1.3) +  # Adjust aspect ratio if needed
   theme_void() +
   labs(title = "Counties of California")
+
 
 
 # Code from pop_map in PhD work ----
@@ -59,10 +75,10 @@ ca_map
 
 # Build map coloring pops by elevation
 pop_map <- ca_map +
-  geom_point(data=map_info,aes(y=lat,x=long,color=el),size=5) + #, size=3, width = 0.2, height = 0.05
+  geom_point(data=org_loc,aes(y=lat,x=long,color=el),size=5) + #, size=3, width = 0.2, height = 0.05
   scale_color_continuous(low='orange',high='blue',name='Elevation (m)',guide="none") +
   #geom_text_repel(data=site_info,aes(x=long,y=lat,label=pop),box.padding=.9)
-  geom_label_repel(data=map_info, aes(x=long,y=lat, label = pop), box.padding = 0.1, nudge_x = 0.35) 
+  geom_label_repel(data=org_loc, aes(x=long,y=lat, label = pop), box.padding = 0.1, nudge_x = 0.35) 
 pop_map
 
 # Outdated code for plotting bar charts ----
