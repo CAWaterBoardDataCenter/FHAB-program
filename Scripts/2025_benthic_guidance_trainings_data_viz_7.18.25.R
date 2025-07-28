@@ -60,6 +60,9 @@ ggplot(data = ca_counties, aes(x = long, y = lat, group = group)) +
   theme_void() +
   labs(title = "Counties of California")
 
+# Add points using lat/longs for orgs, and size points by how many participants were from each org
+
+
 # If we wanted to replicate the above with regional WB boundaries, would have to import a shp file online using sf package and then map
 
 # Code from pop_map in PhD work ----
