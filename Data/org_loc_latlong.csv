@@ -1,60 +1,60 @@
 org,address,county,region,lat,long
 CA Department of Water Resources,"715 P Street, Sacramento, CA 95814",Sacramento,5,38.57549163,-121.4994314
 Southern California Coastal Water Research Project,"3535 Harbor Blvd STE 110, Costa Mesa, CA 92626",Orange,8,33.69730507,-117.9205429
-TRC,,,,,
-County of Los Angeles,Los Angeles,,,34.05190394,-118.23739
+TRC,NA,NA,NA,NA,NA
+County of Los Angeles,Los Angeles,NA,NA,34.05190394,-118.23739
 Wiyot Tribe,"1000 Wiyot Dr, Loleta, CA 95551",Humboldt,1,40.6895222,-124.2532391
 MBC Aquatic Sciences,"3000 Red Hill Ave, Costa Mesa, CA 92626",Orange,8,33.67288741,-117.8779168
 CA Department of Fish and Wildlife,"715 P Street, Sacramento, CA 95814",Sacramento,5,38.57549163,-121.4994314
-County of Humboldt,Humboldt,Humboldt,1,,
-County of Clark Public Health (Vancouver WA),"1601 E Fourth Plain Blvd., Vancouver, WA 98661",,,45.63834201,-122.6541336
-Benton-Franklin Health District,"7102 W Okanogan Pl, Kennewick, WA 99336",,,46.22347591,-119.2162076
+County of Humboldt,Humboldt,Humboldt,1,NA,NA
+County of Clark Public Health (Vancouver WA),"1601 E Fourth Plain Blvd., Vancouver, WA 98661",NA,NA,45.63834201,-122.6541336
+Benton-Franklin Health District,"7102 W Okanogan Pl, Kennewick, WA 99336",NA,NA,46.22347591,-119.2162076
 CA State Parks and Recreation,"715 P Street, Sacramento, CA 95814",Sacramento,5,38.57549163,-121.4994314
-County of San Diego,San Diego ,,,32.71782172,-117.1943437
+County of San Diego,San Diego ,NA,NA,32.71782172,-117.1943437
 CA State Water Board,"1001 I St, Sacramento, CA 95814",Sacramento,5,38.5820305,-121.4920947
-Oregon Health Authority,,,,,
-County of Napa,Napa,,,38.29750996,-122.2897622
-County of Sonoma,Sonoma,,,,
+Oregon Health Authority,NA,NA,NA,NA,NA
+County of Napa,Napa,NA,NA,38.29750996,-122.2897622
+County of Sonoma,Sonoma,NA,NA,NA,NA
 CA Region 8 Water Board (Santa Ana),"3737 Main Street, Suite 500, Riverside, CA 92501",Riverside,8,33.9828068,-117.3741672
-Orange County Health Care Agency,,,,,
+Orange County Health Care Agency,NA,NA,NA,NA,NA
 CA Region 5 Water Board (Central Valley),"11020 Sun Center Drive, Suite 200, Rancho Cordova, CA 95670",Sacramento,5,38.59510199,-121.2749325
-County of Sacramento,Sacramento,,,38.58096962,-121.5324789
+County of Sacramento,Sacramento,NA,NA,38.58096962,-121.5324789
 Yuba Water Agency,"1220 F St, Marysville, CA 95901",Yuba,5,39.14894302,-121.5937823
 County of Los Angeles Department of Parks and Recreation,"West, 1000 S Fremont Ave, Alhambra, CA 91803",Los Angeles,4,34.08044941,-118.1512143
 Yurok Tribe,"190 Klamath Blvd, Klamath, CA 95548",Del Norte,1,41.52948642,-124.037732
-City of Davis,Davis,,,38.54553936,-121.7386361
-Surfrider Foundation,,,,,
+City of Davis,Davis,NA,NA,38.54553936,-121.7386361
+Surfrider Foundation,NA,NA,NA,NA,NA
 Middletown Rancheria ,"22223 S State Highway 29, Middletown, CA 95461",Lake ,1,38.73155722,-122.6239189
 CA Region 4 Water Board (Los Angeles),"320 W. 4th Street, Suite 200, Los Angeles, CA 90013",Los Angeles,4,34.04988501,-118.2495314
 CA Region 6 Water Board (Lahontan),"2501 Lake Tahoe Blvd, So. Lake Tahoe, CA 96150",El Dorado,6,38.92472185,-119.9880906
-Midpeninsula Regional Open Space District,"5050 El Camino Real, Los Altos, CA 94022-1404",Santa Clara,2,,
-UCANR,"2801 Second Street, Davis, CA 95618-7774",Yolo,5,,
-CA Region 2 Water Board (San Francisco Bay),"1515 Clay Street, Suite 1400 Oakland, CA 94612",Alameda,2,,
-County of Mendocino,"501 Low Gap Road, Ukiah, CA 95482",Mendocino,1,,
-City of San Diego,"202 C St. San Diego, CA 92101",San Diego,9,,
-East Bay Regional Park District,"2950 Peralta Oaks Ct, Oakland, CA 94605",Alameda,2,,
-County of Tulare,"2900 W Burrel Ave, Visalia, CA 93277",Tulare,5,,
-City of Santa Rosa,"100 Santa Rosa Ave, Santa Rosa, CA 95404",Sonoma,1,,
-"Sanctuary Forest, Inc.","315 Shelter Cove Rd, Whitethorn, CA 95589",Humboldt,1,,
-Parks and Recreation south Aquatics ,,,,,
-Blue Lake Rancheria,"Blue Lake Rancheria Tribal Government Office, 1 Aiyekwee Loop, Blue Lake, CA 95525",Humboldt,1,,
-OEHHA,"1001 I St, Sacramento, CA 95814",Sacramento,5,,
-CA Region 1 Water Board (North Coast), 5550 Skylane Blvd STE A Santa Rosa CA 95403-1072,Mendocino,1,,
-CA Region 9 Water Board (San Diego),"2375 Northside Drive, Suite 100. San Diego, CA 92108",San Diego,9,,
-Washington State Department of Health,Washington State,,,,
-US Forest Service,"Washington, D.C.",,,,
-League to Save Lake Tahoe,"2877 Lake Tahoe Blvd, South Lake Tahoe, CA 96150",El Dorado,6,,
-County of Imperial,"940 Main St. El Centro, CA 92243",Imperial,7,,
-Karuk Tribe,"64236 2nd Ave, Happy Camp, CA 96039",Siskiyou,1,,
-Grays Harbor County Environmental Health ,Washington State,,,,
-Vista Irrigation District,"1391 Engineer St, Vista, CA 92081",San Diego,9,,
-Washington State Department of Ecology,Washington State,,,,
-Oregon Department of Environmental Quality,Oregon State,,,,
-Rotary Nature Center Friends,"600 Bellevue Avenue, Oakland, CA 94610",Alameda,2,,
-Department of Environmental Health and Quality,,,,,
-Stillwater Sciences ,"279 Cousteau Pl, Davis, California, United States",Yolo,5,,
-UC Davis ,"1 Shields Avenue, Davis CA 95616",Yolo,5,,
-US Army Corps of Engineers,"Washington, D.C.",,,,
-The San Diego River Park Foundation,"4891 Pacific Hwy #110, San Diego, CA 92110",San Diego,9,,
-Restore the Delta,"2616 Pacific Ave #4296, Stockton, CA 95204",San Joaquin,5,,
-ODEQ,Oregon State,,,,
+Midpeninsula Regional Open Space District,"5050 El Camino Real, Los Altos, CA 94022-1404",Santa Clara,2,NA,NA
+UCANR,"2801 Second Street, Davis, CA 95618-7774",Yolo,5,NA,NA
+CA Region 2 Water Board (San Francisco Bay),"1515 Clay Street, Suite 1400 Oakland, CA 94612",Alameda,2,NA,NA
+County of Mendocino,"501 Low Gap Road, Ukiah, CA 95482",Mendocino,1,NA,NA
+City of San Diego,"202 C St. San Diego, CA 92101",San Diego,9,NA,NA
+East Bay Regional Park District,"2950 Peralta Oaks Ct, Oakland, CA 94605",Alameda,2,NA,NA
+County of Tulare,"2900 W Burrel Ave, Visalia, CA 93277",Tulare,5,NA,NA
+City of Santa Rosa,"100 Santa Rosa Ave, Santa Rosa, CA 95404",Sonoma,1,NA,NA
+"Sanctuary Forest, Inc.","315 Shelter Cove Rd, Whitethorn, CA 95589",Humboldt,1,NA,NA
+Parks and Recreation south Aquatics ,NA,NA,NA,NA,NA
+Blue Lake Rancheria,"Blue Lake Rancheria Tribal Government Office, 1 Aiyekwee Loop, Blue Lake, CA 95525",Humboldt,1,NA,NA
+OEHHA,"1001 I St, Sacramento, CA 95814",Sacramento,5,NA,NA
+CA Region 1 Water Board (North Coast), 5550 Skylane Blvd STE A Santa Rosa CA 95403-1072,Mendocino,1,NA,NA
+CA Region 9 Water Board (San Diego),"2375 Northside Drive, Suite 100. San Diego, CA 92108",San Diego,9,NA,NA
+Washington State Department of Health,Washington State,NA,NA,NA,NA
+US Forest Service,"Washington, D.C.",NA,NA,NA,NA
+League to Save Lake Tahoe,"2877 Lake Tahoe Blvd, South Lake Tahoe, CA 96150",El Dorado,6,NA,NA
+County of Imperial,"940 Main St. El Centro, CA 92243",Imperial,7,NA,NA
+Karuk Tribe,"64236 2nd Ave, Happy Camp, CA 96039",Siskiyou,1,NA,NA
+Grays Harbor County Environmental Health ,Washington State,NA,NA,NA,NA
+Vista Irrigation District,"1391 Engineer St, Vista, CA 92081",San Diego,9,NA,NA
+Washington State Department of Ecology,Washington State,NA,NA,NA,NA
+Oregon Department of Environmental Quality,Oregon State,NA,NA,NA,NA
+Rotary Nature Center Friends,"600 Bellevue Avenue, Oakland, CA 94610",Alameda,2,NA,NA
+Department of Environmental Health and Quality,NA,NA,NA,NA,NA
+Stillwater Sciences ,"279 Cousteau Pl, Davis, California, United States",Yolo,5,NA,NA
+UC Davis ,"1 Shields Avenue, Davis CA 95616",Yolo,5,NA,NA
+US Army Corps of Engineers,"Washington, D.C.",NA,NA,NA,NA
+The San Diego River Park Foundation,"4891 Pacific Hwy #110, San Diego, CA 92110",San Diego,9,NA,NA
+Restore the Delta,"2616 Pacific Ave #4296, Stockton, CA 95204",San Joaquin,5,NA,NA
+ODEQ,Oregon State,NA,NA,NA,NA
