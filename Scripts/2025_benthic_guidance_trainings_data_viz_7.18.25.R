@@ -27,23 +27,43 @@ participants_w_orgs = participants %>%
 org_loc = read.csv("data/org_loc.csv")
 
 ### Making a map showing participants by county & organization ###
-# start by coloring counties in a gradient so that darker shades represent more participants for that county
-# make a df with number of participants by county
+# want to color counties in a gradient so that darker shades represent more participants for that county
+# number of participants per organization
+n_org = participants_w_orgs %>%
+  group_by(org, org_category) %>%
+  summarize(n_org = n())
+
+n_org_cat = participants_w_orgs %>%
+  group_by(org_category) %>%
+  summarize(n_org_cat = n())
+
+# TO DO: one instance of USFS is labeled as state govt; should be federal govt
+
 n_cty = org_loc %>%
   group_by(county) %>%
-  summarize(n = n()) %>%
+  summarize(n_cty = n()) %>%
+  #rename counties so they match ca_counties df (all lowercase)
   mutate(county = tolower(county))
-  #rename counties so they match ca_counties df
+
+# make a df with number of participants by county
+all_dat = org_loc %>%
+  select(org, county) %>%
+  left_join(n_cty) %>%
+  left_join(n_org) %>%
+  left_join(n_org_cat)
+
+#CNRA?: 38.57538259282173, -121.49935629279456
 
 # load county data
 usa_counties = map_data("county") 
+
 # filter for CA counties
 ca_counties = usa_counties %>%
   filter(region == "california") %>%
   # join n_cty dataframe
   left_join(n_cty, join_by(subregion == county)) %>%
   # replace NAs with 0s in n column
-  mutate(n = ifelse(is.na(n), 0, n))
+  mutate(n_cty = ifelse(is.na(n_cty), 0, n_cty))
 
 # load map data on US States
 #usa_states = map_data('state')
@@ -54,14 +74,13 @@ teal_gradient = c("white", "#d1eeea","#a8dbd9", "#85c4c9", "#68abb8", "#4f90a6",
 
 # Create the map with counties
 ggplot(data = ca_counties, aes(x = long, y = lat, group = group)) +
-  geom_polygon(aes(fill = n), color = "black",  linewidth = 0.2) + # County boundaries # #
+  geom_polygon(aes(fill = n_cty), color = "black",  linewidth = 0.2) + # County boundaries # #
   scale_fill_gradientn(colors = teal_gradient) +
   coord_fixed(1.3) +  # Adjust aspect ratio if needed
   theme_void() +
   labs(title = "Counties of California")
 
 # Add points using lat/longs for orgs, and size points by how many participants were from each org
-
 
 # If we wanted to replicate the above with regional WB boundaries, would have to import a shp file online using sf package and then map
 
