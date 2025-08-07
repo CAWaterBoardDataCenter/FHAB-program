@@ -1,29 +1,29 @@
 org,address,county,region,lat,long
 CA Department of Water Resources,"715 P Street, Sacramento, CA 95814",Sacramento,5,38.57549163,-121.4994314
 Southern California Coastal Water Research Project,"3535 Harbor Blvd STE 110, Costa Mesa, CA 92626",Orange,8,33.69730507,-117.9205429
-TRC,NA,NA,NA,NA,NA
-County of Los Angeles,Los Angeles,NA,NA,34.05190394,-118.23739
+TRC,"10680 White Rock Rd #100, Rancho Cordova, CA 95670",Sacramento,5,38.5866547,-121.2908793
+County of Los Angeles,,Los Angeles,4,34.05190394,-118.23739
 Wiyot Tribe,"1000 Wiyot Dr, Loleta, CA 95551",Humboldt,1,40.6895222,-124.2532391
 MBC Aquatic Sciences,"3000 Red Hill Ave, Costa Mesa, CA 92626",Orange,8,33.67288741,-117.8779168
 CA Department of Fish and Wildlife,"715 P Street, Sacramento, CA 95814",Sacramento,5,38.57549163,-121.4994314
-County of Humboldt,Humboldt,Humboldt,1,NA,NA
+County of Humboldt,"825 5th St #112, Eureka, CA 95501",Humboldt,1,40.80291406,-124.160499
 County of Clark Public Health (Vancouver WA),"1601 E Fourth Plain Blvd., Vancouver, WA 98661",NA,NA,45.63834201,-122.6541336
 Benton-Franklin Health District,"7102 W Okanogan Pl, Kennewick, WA 99336",NA,NA,46.22347591,-119.2162076
 CA State Parks and Recreation,"715 P Street, Sacramento, CA 95814",Sacramento,5,38.57549163,-121.4994314
 County of San Diego,San Diego ,NA,NA,32.71782172,-117.1943437
 CA State Water Board,"1001 I St, Sacramento, CA 95814",Sacramento,5,38.5820305,-121.4920947
-Oregon Health Authority,NA,NA,NA,NA,NA
+Oregon Health Authority,"3991 Fairview Industrial Dr SE, Salem, OR 97302",NA,NA,45.29993419,-122.9759392
 County of Napa,Napa,NA,NA,38.29750996,-122.2897622
-County of Sonoma,Sonoma,NA,NA,NA,NA
+County of Sonoma,"585 Fiscal Dr # 103F, Santa Rosa, CA 95403",NA,NA,38.46585021,-122.724938
 CA Region 8 Water Board (Santa Ana),"3737 Main Street, Suite 500, Riverside, CA 92501",Riverside,8,33.9828068,-117.3741672
-Orange County Health Care Agency,NA,NA,NA,NA,NA
+Orange County Health Care Agency,"405 W 5th St, Santa Ana, CA 92701",NA,NA,33.76458933,-117.8726095
 CA Region 5 Water Board (Central Valley),"11020 Sun Center Drive, Suite 200, Rancho Cordova, CA 95670",Sacramento,5,38.59510199,-121.2749325
 County of Sacramento,Sacramento,NA,NA,38.58096962,-121.5324789
 Yuba Water Agency,"1220 F St, Marysville, CA 95901",Yuba,5,39.14894302,-121.5937823
 County of Los Angeles Department of Parks and Recreation,"West, 1000 S Fremont Ave, Alhambra, CA 91803",Los Angeles,4,34.08044941,-118.1512143
 Yurok Tribe,"190 Klamath Blvd, Klamath, CA 95548",Del Norte,1,41.52948642,-124.037732
 City of Davis,Davis,NA,NA,38.54553936,-121.7386361
-Surfrider Foundation,NA,NA,NA,NA,NA
+Surfrider Foundation,"800 S Victoria Ave, Ventura, CA 93009",NA,NA,34.31804513,-119.2148266
 Middletown Rancheria ,"22223 S State Highway 29, Middletown, CA 95461",Lake ,1,38.73155722,-122.6239189
 CA Region 4 Water Board (Los Angeles),"320 W. 4th Street, Suite 200, Los Angeles, CA 90013",Los Angeles,4,34.04988501,-118.2495314
 CA Region 6 Water Board (Lahontan),"2501 Lake Tahoe Blvd, So. Lake Tahoe, CA 96150",El Dorado,6,38.92472185,-119.9880906
