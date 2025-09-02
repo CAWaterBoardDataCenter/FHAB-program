@@ -77,8 +77,8 @@ library(ggrepel)
 ggplot(data = ca_counties, aes(x = long, y = lat, group = group)) +
   geom_polygon(aes(fill = n_cty), color = "black",  linewidth = 0.2) + # County boundaries # #
   scale_fill_gradientn(colors = teal_gradient) +
-  geom_point(data = all_dat %>%
-               filter(state == "CA"),
+  geom_point(data = all_dat,
+            #   filter(state == "CA"),
                # remove counties outside CA for now
                aes(x = long, y = lat, group = org, size = n_org, shape = org_category), color = "orange") + #shape = 1, 
   geom_label_repel(data = all_dat %>%
